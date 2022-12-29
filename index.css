@@ -1,0 +1,91 @@
+:root {
+  --white: #fefcfb;
+  --blue1: #034078;
+  --blue2: #0a1128;
+}
+
+html,body {
+  background: var(--white);
+  width: 100vw;
+  height: 100vh;
+  font-size: 16px;
+  font-family: 'Nunito', sans-serif;
+}
+
+.navbar.custom {
+  background-color  : var(--white);
+}
+
+.hero {
+  background: rgb(3,64,120);
+  background: radial-gradient(circle, rgba(3,64,120,1) 0%, rgba(10,17,40,1) 100%);
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+  color: var(--white);
+}
+
+.hero .bottom-img {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  width:100%;
+}
+
+.hero .content {
+  margin-top: 2em;
+  max-width: 60%;
+}
+
+.btn-custom {
+  padding: 0.65em 2.4em;
+  outline: none;
+  border-radius: 5px;
+  background: transparent;
+  border: 2px solid var(--white);
+  color: var(--white);
+  font-size: 1.1em;
+  letter-spacing: 3px;
+  cursor: pointer;
+  font-family: "Nunito";
+}
+
+.btn-custom:hover {
+  border: 2px solid var(--white);
+  background: var(--white);
+  color: var(--blue1);
+}
+
+.btn-custom-secondary{
+  padding: 0.4em 1.4em;
+  outline: none;
+  border-radius: 5px;
+  background: transparent;
+  border: 2px solid var(--blue1);
+  color: var(--blue1);
+  font-size: .9em;
+  cursor: pointer;
+  font-family: "Nunito";
+}
+
+.btn-custom-secondary:hover {
+  border: 2px solid var(--blue1);
+  background: var(--blue1);
+  color: var(--white);
+}
+
+.feature {
+  padding: 1em 4em;
+}
+
+footer {
+  background: var(--blue1);
+  width: 100%;
+  margin-top: 6em;
+}
+
+footer p {
+  color:#cacaca;
+  
+}
